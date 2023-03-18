@@ -33,9 +33,38 @@ main {
   position: relative;
 }
 
+h2 {
+  font-family: Arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-stretch: ultra-condensed;
+  font-size: 70px;
+  /* margin: 19px 0 109px; */
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+
+.glow {
+  color: #fff;
+  text-shadow: 0 0 10px #fff;
+  animation: glowing 2s ease-in-out infinite;
+}
+
+@keyframes glowing {
+  0% {
+    text-shadow: 0 0 10px #fff;
+  }
+  50% {
+    text-shadow: 0 0 20px #fff;
+  }
+  100% {
+    text-shadow: 0 0 10px #fff;
+  }
+}
+
+
 h1 {
   font-family: 'Lucida Handwriting', cursive;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(255, 255, 255), 0 0 70px rgb(255, 255, 255), 0 0 80px rgb(255, 255, 255), 0 0 100px rgb(255, 255, 255), 0 0 150px rgb(255, 255, 255);
   font-size: 50px;
   margin: 19px 0 109px;
   letter-spacing: 8px;

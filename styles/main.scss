@@ -24,12 +24,44 @@ main {
     position: relative;
 }
 
+
+h2 {
+  font-family: Arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-stretch: ultra-condensed;
+  font-size: 70px;
+  /* margin: 19px 0 109px; */
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+
+.glow {
+  color: #fff;
+  text-shadow: 0 0 10px #fff;
+  animation: glowing 2s ease-in-out infinite;
+}
+
+@keyframes glowing {
+  0% {
+    text-shadow: 0 0 10px #fff;
+  }
+  50% {
+    text-shadow: 0 0 20px #fff;
+  }
+  100% {
+    text-shadow: 0 0 10px #fff;
+  }
+}
+
+
 h1 {
-    font-size: 1.5em;
-    margin: 19px 0 109px;
-    letter-spacing: 8px;
-    color: #fff;
-    text-transform: uppercase;
+  font-family: 'Lucida Handwriting', cursive;
+  font-size: 50px;
+  margin: 19px 0 109px;
+  letter-spacing: 8px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .countdown {
