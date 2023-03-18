@@ -34,7 +34,9 @@ main {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-family: 'Lucida Handwriting', cursive;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(255, 255, 255), 0 0 70px rgb(255, 255, 255), 0 0 80px rgb(255, 255, 255), 0 0 100px rgb(255, 255, 255), 0 0 150px rgb(255, 255, 255);
+  font-size: 50px;
   margin: 19px 0 109px;
   letter-spacing: 8px;
   color: #fff;
