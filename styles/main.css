@@ -252,11 +252,11 @@ h1 {
 .timeline {
   position: relative;
   max-width: 1200px;
-  margin: 200px auto;
+  margin: 15rem auto;
 }
 
 .container {
-  padding: 10px 30px;
+  padding: 1rem 2rem;
   position: relative;
   width: 80%;
   animation: movedown 1s linear forwards;
@@ -287,12 +287,11 @@ h1 {
 }
 
 .text-box {
-  padding: 20px 30px;
+  padding: 1rem 2rem;
   background: #fff;
   position: relative;
   border-radius: 6px;
   font-size: 15px;
-
 }
 
 .left-container {
@@ -308,7 +307,7 @@ h1 {
   width: 40px;
   border-radius: 50%;
   right: -20px;
-  top: 32px;
+  top: 2.4rem;
   z-index: 10;
 }
 
