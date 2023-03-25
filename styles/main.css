@@ -311,8 +311,10 @@ h1 {
   margin-bottom: 10px;
   letter-spacing: 2px;
 }
+
+
 @media only screen and (min-width: 768px) {
-  .timeline:before {
+  /* .timeline:before {
     content: "";
     position: absolute;
     top: 0;
@@ -321,7 +323,7 @@ h1 {
     width: 2px;
     height: 100%;
     background-color: gray;
-  }
+  } */
   .timeline ul li {
     width: 50%;
     position: relative;
