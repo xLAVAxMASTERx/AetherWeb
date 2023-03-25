@@ -6,7 +6,7 @@
 
 body {
   font: 700 14px/1 'Red Hat Text', sans-serif;
-  background: url("../images/bgimage.png") no-repeat 0 bottom;
+  background: url("../images/xy.png") no-repeat 0 bottom;
   background-color: #2e364a;
   height: 100vh;
   margin: 0;
@@ -15,7 +15,7 @@ body {
 
 main {
   height: 100vh;
-  background: url(../images/bgimage.png) no-repeat 0 bottom;
+  background: url(../images/xy.png) no-repeat 0 bottom;
   background-size: 100% 100%;
   background-position: center center;
   display: -webkit-box;
@@ -311,10 +311,10 @@ h1 {
   margin-bottom: 10px;
   letter-spacing: 2px;
 }
-
+/* 
 
 @media only screen and (min-width: 768px) {
-  /* .timeline:before {
+   .timeline:before {
     content: "";
     position: absolute;
     top: 0;
@@ -323,7 +323,7 @@ h1 {
     width: 2px;
     height: 100%;
     background-color: gray;
-  } */
+  } 
   .timeline ul li {
     width: 50%;
     position: relative;
@@ -365,7 +365,7 @@ h1 {
   .timeline ul li:hover::before {
     background-color: rgb(97, 11, 126);
   }
-}
+} */
 
 
 /*# sourceMappingURL=main.css.map */
