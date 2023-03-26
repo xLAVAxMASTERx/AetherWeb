@@ -219,7 +219,7 @@ h1 {
 }
 
 .social {
-  position: absolute;
+  /* position: absolute; */
   bottom: 56px;
   list-style-type: none;
   display: -webkit-box;
@@ -230,6 +230,7 @@ h1 {
       -ms-flex-flow: row;
           flex-flow: row;
   padding: 0;
+  margin-top: 30px;
 }
 
 .social li {
@@ -245,8 +246,12 @@ h1 {
   margin-right: 0;
 }
 
-.social a:hover path {
+.social.instagram :hover path {
   fill: #fb6087;
+}
+
+.social.twitter:hover path {
+  fill: #3cc7ed;
 }
 
 
@@ -312,6 +317,14 @@ h1 {
   letter-spacing: 2px;
 }
 
+
+
+
+
+
+
+
+/* code for large screens */
 
 @media only screen and (min-width: 768px) {
   h1 {
@@ -486,7 +499,7 @@ h1 {
 
 .social {
   position: absolute;
-  bottom: 56px;
+  bottom: 16px;
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -496,6 +509,7 @@ h1 {
       -ms-flex-flow: row;
           flex-flow: row;
   padding: 0;
+  /* margin-bottom: 10px; */
 }
 
 .social li {
@@ -511,8 +525,12 @@ h1 {
   margin-right: 0;
 }
 
-.social a:hover path {
+.social.instagram :hover path {
   fill: #fb6087;
+}
+
+.social.twitter:hover path {
+  fill: #3cc7ed;
 }
 
 
