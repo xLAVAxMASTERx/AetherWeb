@@ -29,56 +29,49 @@
   background-color: #f0f0f0;
 }
 
-/* Style Navbar 1 */
-.navbar {
-  width: 100%;
-  height: 50px;
-  padding: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
   background: url(../images/xy.jpg);
-  background-position: center center;
   position: relative;
 }
-.navbar .navbar-brand {
-  margin-left: 50px;
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
 }
-.navbar .navbar-brand a h1 {
-  color: whitesmoke;
-  font-size: 28px;
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
 }
-.a1 {
-  margin-right: 50px;
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: rgb(0, 0, 0);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-.navbar-wrap .navlink {
-  color: whitesmoke;
-  margin: 20px;
-  font-size: 22px;
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  /* background: url(../images/xy.jpg); */
+  background-color: #ddd; 
+  color: black;
 }
-.navbar-wrap .btn {
-  color: whitesmoke;
-  padding: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
-  background-color: #043ade;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 10px;
-  margin-right: 50px;
-}
-.btn-content {
-  margin-right: 50px;
-}
-.btn-content .btn {
-  color: whitesmoke;
-  padding: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
-  background-color: #043ade;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 10px;
+
+/* Style the active link (or home/logo) */
+.active {
+  background: url(../images/xy.jpg);
+  /* background-color: #04AA6D; */
+  color: white;
 }
 
 /* Screen Mobile */
@@ -94,7 +87,7 @@
   .navbar-wrap {
     text-align: center;
     vertical-align: middle;
-  }
+  } 
 
   body {
     /* padding: 20px;
