@@ -770,6 +770,61 @@ h1 {
   .timeline ul li:hover::before {
     background-color: rgb(97, 11, 126);
   }
+  site-footer {
+  background: orange;
+}
+
+#footer-content {
+  background: url(../images/xy.jpg);
+  background-position: center center;
+  position: relative;
+}
+.social {
+  /* position: absolute; */
+  bottom: 56px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.social li {
+  margin-right: 32px;
+}
+
+.social li a path {
+  -webkit-transition: fill 0.3s ease;
+  transition: fill 0.3s ease;
+}
+
+.social li:last-child {
+  margin-right: 0;
+}
+
+.social.instagram :hover path {
+  fill: #fb6087;
+}
+
+.social.twitter:hover path {
+  fill: #3cc7ed;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  background: url("../images/xy.jpg");
+  /* background-color: #111; */
+}
 }
 
 /*# sourceMappingURL=main.css.map */
