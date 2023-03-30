@@ -176,19 +176,19 @@ body {
 }
 .glow {
   color: #fff;
-  text-shadow: 0 0 10px #fff;
+  text-shadow: 0 0 10px #fff;;
   animation: glowing 2s ease-in-out infinite;
 }
 
 @keyframes glowing {
   0% {
-    text-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 10px #fff;;
   }
   50% {
-    text-shadow: 0 0 20px #fff;
+    text-shadow: 0 0 20px #fff;;
   }
   100% {
-    text-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 10px #fff;;
   }
 }
 
@@ -713,7 +713,7 @@ h1 {
     border-radius: 50px;
   }
   .timeline-content .date {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 300;
     margin-bottom: 10px;
     letter-spacing: 2px;
