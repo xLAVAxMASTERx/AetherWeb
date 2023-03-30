@@ -886,7 +886,10 @@ h1 {
 }
 
 .footer-distributed .footer-company-name{
+<<<<<<< HEAD
   
+=======
+>>>>>>> 8ac77152a0245996f37b2e6964b347184d9b5c90
 	color:  #222;
 	font-size: 14px;
 	font-weight: normal;
@@ -959,8 +962,12 @@ h1 {
 
 .footer-distributed .footer-company-about{
 	line-height: 20px;
+<<<<<<< HEAD
 	
   color:  #92999f;
+=======
+	color:  #92999f;
+>>>>>>> 8ac77152a0245996f37b2e6964b347184d9b5c90
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;
