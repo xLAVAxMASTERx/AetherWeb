@@ -626,7 +626,7 @@ h1 {
   }
 
   .social {
-    position: absolute;
+    /* position: absolute; */
     bottom: 16px;
     list-style-type: none;
     display: -webkit-box;
@@ -641,6 +641,7 @@ h1 {
   }
 
   .social li {
+
     margin-right: 32px;
   }
 
@@ -650,14 +651,17 @@ h1 {
   }
 
   .social li:last-child {
+
     margin-right: 0;
   }
 
   .social.instagram :hover path {
+    align-items: center;
     fill: #fb6087;
   }
 
   .social.twitter:hover path {
+    align-items: center;
     fill: #3cc7ed;
   }
 
